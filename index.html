@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Grand Horizon | Luxury Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#home" class="logo">THE GRAND <span>HORIZON</span></a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#rooms">Rooms</a>
+            <a href="#facilities">Facilities</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#booking" class="nav-button">Book Now</a>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="eyebrow">WELCOME TO THE GRAND HORIZON</p>
+            <h1>Experience Luxury.<br>Discover Comfort.</h1>
+            <p>Relax in elegant surroundings and enjoy an unforgettable stay.</p>
+            <a href="#rooms" class="primary-button">Explore Our Rooms</a>
+        </div>
+    </section>
+
+    <section class="intro" id="about">
+        <p class="eyebrow">A PLACE TO RELAX</p>
+        <h2>Where Every Stay Feels Special</h2>
+        <p>Discover beautiful rooms, thoughtful hospitality and relaxing spaces designed to make every visit memorable.</p>
+    </section>
+
+    <section class="rooms" id="rooms">
+        <div class="section-heading">
+            <p class="eyebrow">ACCOMMODATION</p>
+            <h2>Our Luxury Rooms</h2>
+            <p>Choose a room that suits your stay.</p>
+        </div>
+
+        <div class="room-grid">
+
+            <article class="room-card">
+                <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1000" alt="Deluxe hotel room">
+                <div class="room-info">
+                    <h3>Deluxe Room</h3>
+                    <p>Comfortable interiors with a relaxing atmosphere.</p>
+                    <h4>₹3,500 / Night</h4>
+                    <a href="#booking">Book This Room →</a>
+                </div>
+            </article>
+
+            <article class="room-card">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1000" alt="Premium hotel suite">
+                <div class="room-info">
+                    <h3>Premium Suite</h3>
+                    <p>Spacious accommodation with elegant furnishings.</p>
+                    <h4>₹5,500 / Night</h4>
+                    <a href="#booking">Book This Room →</a>
+                </div>
+            </article>
+
+            <article class="room-card">
+                <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1000" alt="Luxury hotel bedroom">
+                <div class="room-info">
+                    <h3>Luxury Suite</h3>
+                    <p>A premium experience with extra space and comfort.</p>
+                    <h4>₹8,000 / Night</h4>
+                    <a href="#booking">Book This Room →</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="facilities" id="facilities">
+        <div class="section-heading">
+            <p class="eyebrow">HOTEL EXPERIENCES</p>
+            <h2>Our Facilities</h2>
+        </div>
+
+        <div class="facility-grid">
+            <div class="facility-item">
+                <span>🏊</span>
+                <h3>Swimming Pool</h3>
+                <p>Enjoy a refreshing swim.</p>
+            </div>
+
+            <div class="facility-item">
+                <span>🍽️</span>
+                <h3>Restaurant</h3>
+                <p>Enjoy delicious dining experiences.</p>
+            </div>
+
+            <div class="facility-item">
+                <span>💆</span>
+                <h3>Spa & Wellness</h3>
+                <p>Relax and refresh yourself.</p>
+            </div>
+
+            <div class="facility-item">
+                <span>🚗</span>
+                <h3>Parking</h3>
+                <p>Convenient guest parking.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking" id="booking">
+        <div class="booking-content">
+            <p class="eyebrow">PLAN YOUR STAY</p>
+            <h2>Make a Booking Enquiry</h2>
+            <p>Send us your preferred dates and room details.</p>
+
+            <form id="booking-form">
+                <input type="text" id="guest-name" placeholder="Your Full Name" required>
+
+                <input type="email" id="guest-email" placeholder="Your Email Address" required>
+
+                <label for="check-in">Check-in Date</label>
+                <input type="date" id="check-in" required>
+
+                <label for="check-out">Check-out Date</label>
+                <input type="date" id="check-out" required>
+
+                <select id="room-type" required>
+                    <option value="">Choose a Room</option>
+                    <option>Deluxe Room</option>
+                    <option>Premium Suite</option>
+                    <option>Luxury Suite</option>
+                </select>
+
+                <button type="submit">Send Booking Enquiry</button>
+            </form>
+
+            <p id="booking-message"></p>
+            <p class="demo-note">Demo form only. No actual hotel reservation is made.</p>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>We Look Forward to Welcoming You</h2>
+        <p>Email: thirukachiofficial@gmail.com</p>
+        <p>Phone: +91 9363289822</p>
+        <p>Location: Chennai, Tamil Nadu</p>
+        <a href="https://wa.me/919876543210" class="primary-button">WhatsApp Us</a>
+    </section>
+
+    <footer>
+        <h2>THE GRAND HORIZON</h2>
+        <p>Experience Luxury. Discover Comfort.</p>
+        <p>© 2026 The Grand Horizon. Demo website.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
